@@ -1,5 +1,5 @@
-import controll_origin
-from controll_origin import Out_Mode, Home_Mode, Axis_Num, Logic_Flag
+from controll.controll import controll_origin
+from controll.controll.controll_origin import Out_Mode, Home_Mode, Axis_Num, Logic_Flag
 
 myController = controll_origin.Controller()
 
