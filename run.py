@@ -4,8 +4,6 @@ from controll.encapsulation import Encapsulation
 base = Encapsulation()
 num1 = Axis_Num.Axis_NO_1.value
 num2 = Axis_Num.Axis_NO_2.value
-# 初始化
-# base.initialize()
 # 上电
 base.power_on()
 # 1,2轴限位传感器设置
