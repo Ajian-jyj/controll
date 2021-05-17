@@ -5,7 +5,7 @@ from enum import Enum
 
 class Controller(object):
     def __init__(self):
-        self.__path = r'C:\Users\jiaxi\Documents\Jiaxin.Qian_personal\Controller\Developement_Code\python_controller\MPC08D.dll'  # 按照具体路径设置
+        self.__path = r'C:\Users\yuping\Desktop\Developement_Code\python_controller\MPC08D.dll'  # 按照具体路径设置
         self.controller = ctypes.windll.LoadLibrary(self.__path)
 
     def auto_set(self):
